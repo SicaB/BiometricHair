@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84ADAE552E0560D80091E562 /* BiometricHairAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE542E0560D80091E562 /* BiometricHairAppApp.swift */; };
-		84ADAE572E0560D80091E562 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE562E0560D80091E562 /* ContentView.swift */; };
+		849D11AB2E09BC8A0088C59D /* CameraState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D11AA2E09BC8A0088C59D /* CameraState.swift */; };
+		849D11AD2E0A067B0088C59D /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D11AC2E0A067B0088C59D /* CameraButton.swift */; };
+		849D11B02E0A84500088C59D /* StartCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D11AF2E0A84500088C59D /* StartCameraButton.swift */; };
+		849D11B22E0A87470088C59D /* TakePhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D11B12E0A87470088C59D /* TakePhotoButton.swift */; };
+		849D11B42E0AA1E90088C59D /* AppEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D11B32E0AA1E90088C59D /* AppEntryView.swift */; };
+		849D11B62E0AA21E0088C59D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D11B52E0AA21E0088C59D /* SplashScreenView.swift */; };
+		84ADAE552E0560D80091E562 /* BiometricHairApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE542E0560D80091E562 /* BiometricHairApp.swift */; };
+		84ADAE572E0560D80091E562 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE562E0560D80091E562 /* PhotoCaptureView.swift */; };
 		84ADAE592E0560DB0091E562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ADAE582E0560DB0091E562 /* Assets.xcassets */; };
 		84ADAE5C2E0560DB0091E562 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ADAE5B2E0560DB0091E562 /* Preview Assets.xcassets */; };
+		84ADAE692E0565430091E562 /* PhotoCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE682E0565430091E562 /* PhotoCaptureViewModel.swift */; };
+		84ADAE6B2E0565EB0091E562 /* HairMaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE6A2E0565EB0091E562 /* HairMaskService.swift */; };
+		84ADAE6D2E056D840091E562 /* PhotoCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE6C2E056D840091E562 /* PhotoCaptureService.swift */; };
+		84ADAE6F2E05715D0091E562 /* CaptureDeviceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE6E2E05715D0091E562 /* CaptureDeviceError.swift */; };
+		84ADAE712E094A040091E562 /* CapturePhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE702E094A040091E562 /* CapturePhotoData.swift */; };
+		84ADAE732E094AC40091E562 /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADAE722E094AC40091E562 /* PhotoRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		849D11A72E097D9F0088C59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849D11AA2E09BC8A0088C59D /* CameraState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraState.swift; sourceTree = "<group>"; };
+		849D11AC2E0A067B0088C59D /* CameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		849D11AF2E0A84500088C59D /* StartCameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCameraButton.swift; sourceTree = "<group>"; };
+		849D11B12E0A87470088C59D /* TakePhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePhotoButton.swift; sourceTree = "<group>"; };
+		849D11B32E0AA1E90088C59D /* AppEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryView.swift; sourceTree = "<group>"; };
+		849D11B52E0AA21E0088C59D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		84ADAE512E0560D80091E562 /* BiometricHairApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiometricHairApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84ADAE542E0560D80091E562 /* BiometricHairAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricHairAppApp.swift; sourceTree = "<group>"; };
-		84ADAE562E0560D80091E562 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84ADAE542E0560D80091E562 /* BiometricHairApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricHairApp.swift; sourceTree = "<group>"; };
+		84ADAE562E0560D80091E562 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 		84ADAE582E0560DB0091E562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84ADAE5B2E0560DB0091E562 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84ADAE672E05628C0091E562 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84ADAE682E0565430091E562 /* PhotoCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureViewModel.swift; sourceTree = "<group>"; };
+		84ADAE6A2E0565EB0091E562 /* HairMaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairMaskService.swift; sourceTree = "<group>"; };
+		84ADAE6C2E056D840091E562 /* PhotoCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureService.swift; sourceTree = "<group>"; };
+		84ADAE6E2E05715D0091E562 /* CaptureDeviceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureDeviceError.swift; sourceTree = "<group>"; };
+		84ADAE702E094A040091E562 /* CapturePhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePhotoData.swift; sourceTree = "<group>"; };
+		84ADAE722E094AC40091E562 /* PhotoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +58,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		849D11AE2E0A84250088C59D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				849D11AC2E0A067B0088C59D /* CameraButton.swift */,
+				849D11AF2E0A84500088C59D /* StartCameraButton.swift */,
+				849D11B12E0A87470088C59D /* TakePhotoButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		84ADAE482E0560D80091E562 = {
 			isa = PBXGroup;
 			children = (
+				849D11A72E097D9F0088C59D /* Info.plist */,
+				84ADAE672E05628C0091E562 /* README.md */,
 				84ADAE532E0560D80091E562 /* BiometricHairApp */,
 				84ADAE522E0560D80091E562 /* Products */,
 			);
@@ -51,8 +89,11 @@
 		84ADAE532E0560D80091E562 /* BiometricHairApp */ = {
 			isa = PBXGroup;
 			children = (
-				84ADAE542E0560D80091E562 /* BiometricHairAppApp.swift */,
-				84ADAE562E0560D80091E562 /* ContentView.swift */,
+				84ADAE622E05610A0091E562 /* Views */,
+				84ADAE632E0561250091E562 /* ViewModels */,
+				84ADAE642E0561330091E562 /* Models */,
+				84ADAE652E0561430091E562 /* Repositories */,
+				84ADAE662E05614B0091E562 /* Services */,
 				84ADAE582E0560DB0091E562 /* Assets.xcassets */,
 				84ADAE5A2E0560DB0091E562 /* Preview Content */,
 			);
@@ -65,6 +106,53 @@
 				84ADAE5B2E0560DB0091E562 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84ADAE622E05610A0091E562 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				849D11AE2E0A84250088C59D /* Components */,
+				84ADAE562E0560D80091E562 /* PhotoCaptureView.swift */,
+				84ADAE542E0560D80091E562 /* BiometricHairApp.swift */,
+				849D11B32E0AA1E90088C59D /* AppEntryView.swift */,
+				849D11B52E0AA21E0088C59D /* SplashScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84ADAE632E0561250091E562 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84ADAE682E0565430091E562 /* PhotoCaptureViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84ADAE642E0561330091E562 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84ADAE702E094A040091E562 /* CapturePhotoData.swift */,
+				849D11AA2E09BC8A0088C59D /* CameraState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84ADAE652E0561430091E562 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				84ADAE722E094AC40091E562 /* PhotoRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		84ADAE662E05614B0091E562 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84ADAE6A2E0565EB0091E562 /* HairMaskService.swift */,
+				84ADAE6C2E056D840091E562 /* PhotoCaptureService.swift */,
+				84ADAE6E2E05715D0091E562 /* CaptureDeviceError.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +225,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ADAE572E0560D80091E562 /* ContentView.swift in Sources */,
-				84ADAE552E0560D80091E562 /* BiometricHairAppApp.swift in Sources */,
+				84ADAE692E0565430091E562 /* PhotoCaptureViewModel.swift in Sources */,
+				84ADAE712E094A040091E562 /* CapturePhotoData.swift in Sources */,
+				849D11AD2E0A067B0088C59D /* CameraButton.swift in Sources */,
+				849D11B02E0A84500088C59D /* StartCameraButton.swift in Sources */,
+				849D11AB2E09BC8A0088C59D /* CameraState.swift in Sources */,
+				84ADAE6F2E05715D0091E562 /* CaptureDeviceError.swift in Sources */,
+				84ADAE732E094AC40091E562 /* PhotoRepository.swift in Sources */,
+				849D11B62E0AA21E0088C59D /* SplashScreenView.swift in Sources */,
+				849D11B22E0A87470088C59D /* TakePhotoButton.swift in Sources */,
+				849D11B42E0AA1E90088C59D /* AppEntryView.swift in Sources */,
+				84ADAE6B2E0565EB0091E562 /* HairMaskService.swift in Sources */,
+				84ADAE572E0560D80091E562 /* PhotoCaptureView.swift in Sources */,
+				84ADAE6D2E056D840091E562 /* PhotoCaptureService.swift in Sources */,
+				84ADAE552E0560D80091E562 /* BiometricHairApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +297,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_PREPROCESS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -254,6 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -275,6 +378,7 @@
 				DEVELOPMENT_TEAM = WF3M29M7CQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +408,7 @@
 				DEVELOPMENT_TEAM = WF3M29M7CQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
